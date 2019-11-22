@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         //updted in feature5 again
         
-        //updated automerge
+        //updated automerge  2
     }
 
 
