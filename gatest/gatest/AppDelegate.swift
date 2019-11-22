@@ -18,10 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     //updated in feature1
 
+<<<<<<< HEAD
     //updted in develop after feature2
 
     //updted in develop after feature2 again
 
+=======
+    //udated in feature 2
+>>>>>>> feature 2
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
