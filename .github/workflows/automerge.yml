@@ -1,24 +1,17 @@
-name: automerge
+name: Pull Request on Branch Push
 on:
-  pull_request:
-    types:
-      - labeled
-      - unlabeled
-      - synchronize
-      - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
-  pull_request_review:
-    types:
-      - submitted
-  status: {}
+  push:
+    branches-ignore:
+      - staging
+      - launchpad
+      - production
 jobs:
-  automerge:
+  auto-pull-request:
+    name: PullRequestAction
     runs-on: ubuntu-latest
     steps:
-      - name: automerge
-        uses: "pascalgn/automerge-action@2c8e667a3386187418587517e5bfe33470d19b5b"
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@develop
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST_BRANCH: "develop"
