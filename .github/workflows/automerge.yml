@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull-request-action
-        uses: Rushiraj-jhala/gatest@develop
+        uses: vsoch/pull-request-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: "develop"
+          BRANCH_PREFIX: "update/"
+          PULL_REQUEST_BRANCH: "master
