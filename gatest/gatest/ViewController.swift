@@ -13,16 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //Updated in task1
-        //Update after pull request created
-        
-        // updated again after merge
-        
-        //Updated after second merge (rebased )
-        
-        //updated in developed after feature1
-        
-        //updated in developed after feature2
+    
     }
 
 
