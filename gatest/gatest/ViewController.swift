@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         
         //updated automerge  2
         //generate pull request updated with repo
+        
+        //auto pull request generated
     }
 
 
