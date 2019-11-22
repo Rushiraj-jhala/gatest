@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         //updted in feature5 again
         
         //updated automerge  2
-        //generate pull request
+        //generate pull request updated
     }
 
 
